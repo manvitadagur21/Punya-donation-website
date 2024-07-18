@@ -1,0 +1,450 @@
+@font-face {
+    font-family: NatureBeautyPersonalUse;
+    src: url(../fonts/NatureBeautyPersonalUse-9Y2DK.ttf);
+}
+body{
+     /* background-color: #B0DDFD;  */
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    /* background-color: #9bddff; */
+}
+html{
+    scroll-behavior:smooth;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: contents;
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 184px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.taking_you{
+    font-style: italic;
+    text-align: center;
+}
+
+#main_title {
+    margin-top: 20px;
+    /* font-family: NatureBeautyPersonalUse; */
+    font-size: 70px;
+    color: #006cd6; 
+    font-size: 70px;
+}
+
+.navbar {
+    background: #4E97D1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    margin: 10px;
+}
+
+.navbar ul li {
+    margin: 15px;
+    list-style: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+
+.navbar ul li a {
+    color: #ffff;
+    font-size: 28px;
+    text-decoration: none;
+
+}
+
+.navbar ul li a:hover {
+    border-bottom: 1px solid;
+}
+
+.hr1, .hr2 {
+    height: 3px;
+    background-color: #006cd6;
+}
+
+.container1 {
+    width: 100%;
+    display: contents;
+}
+
+.hero {
+    background-color: #ffff;
+    margin-top: 77px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #FFF9EB; */
+    /* background-image: url(../images/Untitled\ design\ \(5\).png); */
+
+}
+
+.picture {
+    margin: 100px 20px;
+    height: 800px;
+    width: 600px;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    border: solid 3px black;
+}
+
+.text_quote_first {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 50px;
+    text-align: center;
+    margin: 20px 70px;
+    color: #EA3546;
+    line-height: 4rem !important;
+
+
+}
+.text_quote_second{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 40px;
+    text-align: center;
+    margin: 20px 70px;
+    color: #EA3546;
+    line-height: 4rem !important;
+}
+
+.text_quote2 {
+    white-space: pre-wrap;
+    transition-timing-function: ease;
+    transition-duration: 1.5s;
+    transition-delay: 0.117073s;
+}
+
+.quote {
+    margin-right: 20px;
+}
+
+.container2 {
+    display: contents;
+    width: 100%;
+}
+
+.video_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_quote1 {
+    padding-top: 4.6vmax;
+    font-size: 36px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    color: #00BFB2;
+}
+
+.video {
+    background-color:#90b1db ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.old_age_video {
+    padding-top: 3vmax;
+    background-position: 50% 50%;
+    width: 1091.47px;
+    height: 613.94px;
+    background-color: #ffff;
+    margin-top: 55px;
+}
+
+.container3 {
+    display: contents;
+    width: 100%;
+}
+
+.text {
+    margin-top: 10rem;
+    width: 100%;
+    /* background-color: #9bddff; */
+    background-color: #90b1db;
+}
+
+.companion_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.mid_text {
+    font-family: 'Libre Baskerville', serif;
+    white-space: pre-wrap;
+    /* margin-top: 3rem; */
+    margin-right: 200px;
+    font-size: 35.3736px;
+}
+
+#image1 {
+    width: 550px;
+    height: 550px;
+    border-radius: 80%;
+    border: 4px solid black;
+    margin-bottom: 17px;
+}
+.logo{
+    height: 300px;
+    width: 300px;
+}
+
+#subtitle{
+    color: #006cd6;
+}
+#image2 {
+    
+    /* background-size: cover; */
+    width: 550px;
+    height: 550px;
+    border-radius: 80%;
+    margin-right: 20px;
+    border: 4px solid black;
+    margin:20px 20px;
+}
+
+.picture_box1 {
+    background-color: #90b1db;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.picture_box2 {
+    background-color: #90b1db;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.text1 {
+    margin-right: 20px;
+    white-space: pre-line;
+}
+
+.text2 {
+    margin-right: 20px;
+    white-space: pre-line;
+}
+
+.picture_box {
+    margin-top: 10rem;
+}
+
+h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30.4992px;
+    line-height: 2.2;
+}
+
+.title1,
+.title2,
+.title3,
+.title4 {
+    font-size: 45px;
+    color:blue;
+}
+
+.container5 {
+    display: contents;
+    width: 100%;
+}
+
+.container6 {
+    display: contents;
+    width: 100%;
+}
+
+.picture_box3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #90b1db;
+}
+
+#image3 {
+    width: 600px;
+    height: 600px;
+    border-radius: 80%;
+    border: 4px solid black;
+}
+
+.text3 {
+    margin-right: 20px;
+    white-space: pre-line;
+}
+
+#image4 {
+    width: 600px;
+    height: 600px;
+    border-radius: 80%;
+    margin-right: 20px;
+    border: 4px solid black;
+}
+
+.picture_box4 {
+    background-color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.text4 {
+    margin-right: 20px;
+    white-space: pre-line;
+}
+
+.glipmse_text {
+    margin-top: 79px;
+    width: 100%;
+    /* background-color: #FFC600; */
+}
+
+.glimpse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 32px;
+    color: #00BFB2;
+}
+
+.container9 {
+    width: 100%;
+    display: contents;
+}
+
+.faq_title {
+    display: flex;
+    justify-content: center;
+}
+
+#faq_title {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 37px;
+    margin-top: 100px;
+    letter-spacing: 3px;
+}
+
+.FAQ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.upper_top_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.middle_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#upper_top_title{
+    font-size: 46.75px;
+    font-weight: 600;
+    color: #ffff;
+}
+#doctors{
+    font-size: 46.75px;
+    color: #ffff;
+
+}
+.faq_box {
+    width: 85%
+}
+.faq1{
+    margin: 50px 50px;
+}
+#faq_q1, #faq_q2, #faq_q3 {
+    margin: 50px 50px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 50px;
+    color: #00BFB2;
+}
+#faq_a1,
+#faq_a2,
+#faq_a3{
+    margin: 50px 50px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 50px;
+}
+
+.faq2{
+    margin: 50px 50px;
+}
+#faq_q2{
+    margin: 50px 50px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 50px;
+}
+#faq_a2{
+    margin: 50px 50px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 50px;
+}
+.faq3{
+    margin: 50px 50px;
+}
+#faq_q3{
+    margin: 50px 50px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 50px;
+}
+#faq_a3{
+    margin: 50px 50px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 50px;
+}
+.footer{
+    background-color: #4E97D1;
+    position: sticky;
+    top: 100%;
+}
+.sub_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sub_title{
+    font-family: NatureBeautyPersonalUse;
+    margin-bottom: 20px;
+}

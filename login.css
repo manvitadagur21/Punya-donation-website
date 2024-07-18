@@ -1,0 +1,118 @@
+.left_box{
+    /* background-color: lightcoral; */
+    /* background-image: url(../images/IMG_1999.jpg); */
+
+    height: 800px;
+    width: 700px;
+}
+.login_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: cyan; */
+    background-image: url(../images/try_bg2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 792px;
+    width: 773px;
+    border: 4px solid black;
+    border-left: none;
+}
+.boxes{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Login_left_pic{
+    border-right: none;
+    border: 4px solid black;
+     width: 800px;
+     height: 792px; 
+}
+#subtitle{
+    color: #006cd6;
+}
+.login_box{
+    width: 600px;
+    height: 600px;
+    /* background-color: red; */
+}
+.login_heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#login_heading{
+    margin-top: 7rem;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 35px;
+}
+.username_input, .password_input{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#uname, #pswd{
+    margin:20px 10px;
+    width: 52%;
+    height: 35px;
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+}
+.fa-user, .fa-lock{
+    font-size: 23px;
+}
+.change_pswd{
+    /* width: 200px; */
+    /* margin: 10px 20px; */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    /* width: 460px; */
+    font-size: 20px;
+}
+.change_pswd a{
+    color: #FF5666;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+}
+.login_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#login_btn{
+    width: 35%;
+    height: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 10px;
+    border-radius: 10px;
+}
+#login_btn:hover{
+    cursor: pointer;
+    transform:scale(1.05);
+}
+.forgot_password{
+    margin-right: 20px;
+}
+.change_login_org{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.org_login{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.org_login a{
+    color: #FF5666;
+    text-decoration: none;
+}

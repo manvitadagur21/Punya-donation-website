@@ -1,0 +1,66 @@
+.req_food, .req_clothes, .req_meds, .req_vol{
+    margin: 20px 30px;
+    width: 300px;
+    height: 250px;
+    background-color:#B7B5E4;
+    border-radius: 10px;
+    transition: 0.4s all ease-in;
+
+
+}
+.req_food:hover, .req_clothes:hover, .req_meds:hover, .req_vol:hover{
+     transform: scale(1.1); 
+     cursor: pointer;
+     transition: 0.4s all ease-in;
+}
+#subtitle{
+    color: #006cd6;
+}
+
+.requirements{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.requirements_frame{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.Order_food, .Order_clothes, .Order_meds, .Order_vol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#get_food, #get_clothes, #get_meds, #get_vol{
+    font-size: 35px;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-bottom: 2px solid black;
+    margin: 30px 35px;
+    font-weight: 600;
+}
+.food_icon, .clothes_icon, .meds_icon, .vol_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-solid, .fa-sharp{
+    margin-top: 30px;
+    font-size: 50px;
+    color: darkblue;
+}
+.welcome_user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user_welcome{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 35px;
+    color: blue;
+    border-bottom: black 2px solid;
+}

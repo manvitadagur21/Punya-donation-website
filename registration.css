@@ -1,0 +1,342 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    min-height: 100vh;
+}
+#subtitle{
+    color: #006cd6;
+}
+.popup {
+    background-image: url(../images/try_bg2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 800px;
+    padding: 40px 25px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 15px;
+    border: black 4px solid;
+    font-family: "Poppins", sans-serif;
+    display: none;
+    text-align: center;
+}
+.popup p {
+    font-size: 14px;
+    text-align: justify;
+    margin: 20px 0;
+    line-height: 25px;
+}
+
+.lets_go {
+    display: block;
+    width: 150px;
+    position: relative;
+    margin: 10px auto;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px 0;
+}
+
+.popup_title {
+    font-family: 'Libre Baskerville', serif;
+}
+
+.popup_buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 45px 20px;
+}
+
+.register_inst {
+    margin-right: 30px;
+}
+
+#register_inst,
+#register_org {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    color: #ffff;
+    background-color: #031D44;
+    border-radius: 10px;
+    padding: 10px;
+}
+#register_inst:hover, #register_org:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.registration_form_institute {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.main_registration_form {
+    width: 100%; 
+    height: 1450px; 
+    /* background-color: lightskyblue; */
+    background-image: url(../images/try_bg2.jpeg);
+    background-size: cover;
+    border-radius: 15px;
+}
+.main_registration_form_org{
+    margin-top: 122px;
+    width: 100%; 
+    height: 1310px;
+    background-color: lightskyblue;
+    background-image: url(../images/try_bg2.jpeg);
+    background-size: cover;
+    border-radius: 15px;
+    border: 5px solid black;
+}
+.registration_form_organisation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+
+.upper_heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#upper_heading {
+    margin: 10px 10px;
+    font-size: 31px;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.fullname,
+.institute_details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#fullname,
+#institute_details {
+    margin: 30px 35px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.first_name,
+.last_name,
+.phone_number,
+.select_institute,
+.select_college,
+.select_location,
+.postal_zip,
+.address,
+.state,
+.create_username,
+.create_password,
+.confirm_password,
+.email_address,
+.phone_landline,
+.fax_number {
+    width: 500px;
+    height: 160px;
+    /* background-color: orangered; */
+    margin: 20px;
+}
+
+.upper_details,
+.upper_middle_details,
+.middle_details,
+.lower_middle_details,
+.lower_details {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.first_name_text,
+.last_name_text,
+.phone_text,
+.postal_text,
+.address_text,
+.state_dropdown,
+.email_text,
+.landline_text,
+.fax_text,
+.create_username_text,
+.create_password_text,
+.confirm_password_text {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.first_name_label,
+.last_name_label,
+.phone_label,
+.institute_dropdown_label,
+.college_dropdown_label,
+.location_dropdown_label,
+.postal_label,
+.address_label,
+.state_label,
+.email_address_label,
+.landline_number,
+.fax_label,
+.username_label,
+.create_password_label,
+.confirm_password_label,
+.org_name_label,
+.org_pin_label,
+.org_email_label,
+.org_email_label,
+.org_email_label,
+.org_drop_label,
+.org_state_label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.institute_dropdown,
+.college_dropdown,
+.location_dropdown {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#fname,
+#lname,
+#phone_number,
+#postal_number,
+#address,
+#email_address,
+#landline,
+#fax,
+#username,
+#password,
+#confirm_password,
+#org_name,
+#org_add,
+#org_pin,
+#org_email,
+#confirm_address
+{
+    width: 367px;
+    height: 35px;
+    border-radius: 10px;
+    border: 3px solid black;
+    margin: 29px 20px;
+    padding: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+label {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+}
+select{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    width: 367px;
+    height: 55px;
+    border-radius: 10px;
+    border: 3px solid black;
+    margin: 29px 20px;
+    padding: 0px;
+}
+.main_upper_heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main_upper_heading{
+    margin: 20px 20px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.close_button{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.submit_form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#submit_form_btn{
+    width: 345px;
+    height: 60px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    border-radius: 15px;
+    background-color:#B2AC88;
+    margin-top: 20px;
+}
+#submit_form_btn:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.org_pincode{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.org_name, .org_address, .org_pin, .org_email, .org_type, .org_state{
+    width: 496px;
+    height: 200px;
+    /* background-color: red; */
+}
+.org_middle_details, .org_lower_middle_details{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+}
+.org_pin_text{
+    margin-left: 53px;
+}
+.org_add_text{
+    margin-left: 40px;
+}
+.org_name_text{
+    margin-left: 19
+}
+.org_type{
+    margin-left: 30px;
+}
+.org_email_text{
+    margin-left: 13px;
+}
+.org_state_drop{
+    margin-left: 60px;
+}
+.org_type_drop{
+    margin-left: 40px;
+}

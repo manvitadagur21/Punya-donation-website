@@ -1,0 +1,186 @@
+.medicine_request_box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -34%);
+}
+.medicine_request_form{
+    height: 640px;
+    width: 1000px;
+    background-color:skyblue;
+    border-radius: 20px;
+    border: solid black 3px;
+}
+#subtitle{
+    color: #006cd6;
+}
+#medicine_heading{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 30px 30px;
+    font-size: 38px;
+    letter-spacing: 2.5px;
+}
+.medicine_heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.select_disease{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+.disease_label,.label_gender, .label_date, .emergency_label, .medicine_label, .company_label{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    /* margin-right: 56px; */
+}
+.select_organisation_label{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+#disease, #purpose_drop_down{
+    height: 40px;
+    width: 250px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+
+
+}
+
+.Date_of_Delivery_Medicine{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    width: 1035px;
+    margin: 20px 2px;
+}
+.dummy_box{
+    /* height: 180px; */
+    height: 125px;
+    width: 479px;
+    /* border: 5px solid white; */
+
+}
+#date{
+    height: 40px;
+    width: 250px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 42px;
+}
+
+.emergency{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    margin-top: 30px;
+
+}
+.option1, .option2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+#radio{
+    width: 50px;
+    height: 25px;
+}
+.submit_requirement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.sbt_req{
+    width: 300px;
+    height: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    /* border-radius: 12px; */
+    text-align: center;
+    letter-spacing: 2px;
+    transition: 0.6s all ease-in-out;
+    border: none;
+}
+.sbt_req:hover{
+    cursor: pointer;
+    transition: 0.6s all ease-in-out;
+    /* border-radius: 20px; */
+    box-shadow: 0 12px 16px 0 rgba(255, 0, 0, 0.24),0 17px 50px 0 rgba(255, 0, 0, 0.19);
+}
+.org_select_drop_med{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 1007px; 
+    margin: 20px 2px;
+
+}
+.show_dummy_box{
+    height: 10px;
+    width: 250px;
+    background-color: bisque;
+}
+#org_select{
+    height: 40px;
+    width: 250px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 42px;
+}
+.medicines{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    width: 987px;
+    margin: 20px 2px;
+}
+#dropdown{
+    height: 40px;
+    width: 250px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+#disease_drop_down{
+    height: 40px;
+    width: 250px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.company{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    margin: 20px 2px;
+    width: 979px;
+}
+#company{
+    height: 40px;
+    width: 250px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    min-height: 100vh;
+}
+.container{
+    display: contents;
+    width: 100%;
+}
+.contact_box{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    margin: 40px 40px;
+}
+#box_text1{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+#box1_para{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 34px;
+}
+#go_to_faq{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 33.6px;
+}
+#box2_text2{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 36px;
+}
+#email_id{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 33.6px;
+}
+#email_id a{
+    color: #00BFB2;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.box_text1{
+    margin: 20px 0px;
+}
+.box1_para{
+    /* white-space: line; */
+    line-height: 70px;
+}
+.box2{
+    margin: 40px 40px;
+}
+#box2_text2{
+    margin: 26px 0px;
+}
+.follow_us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#follow_us{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 38px;
+    letter-spacing: 3px;
+    margin: 35px 30px;
+}
+.social_media_icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social_media_icons ul{
+    display: flex;
+}
+.social_media_icons ul li{
+    list-style: none;
+    margin: 30px;
+    font-size: 50px;
+}
+.footer{
+    background-color: #4E97D1;    
+    position: sticky;
+    top: 100%;
+    padding: 15px;
+}
+
+.instagram{
+    color: #8a3ab9;
+}
+.linkedin{
+    color: #0A66C2;
+}
+.facebook{
+    color:  #3b5998;
+}
+#subtitle{
+    color: #006cd6;
+}
+.twitter{
+    color: #1DA1F2;
+}
+.fa-brands:hover{
+    transform: scale(1.2);
+}
+#footer_text{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    color: #ffff;
+}   
+.footer_rights{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#go_to_faq a{
+    color: #00BFB2;
+    font-weight: 700;
+}

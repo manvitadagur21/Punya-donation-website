@@ -1,0 +1,99 @@
+.jims_college{
+    margin-top: 100px;
+}
+.college_photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.jims_pic{
+   width:500px;
+   height:500px;
+   margin:20px 20px;
+}
+.abt_jims{
+    width: 100%;
+    margin: 20px 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 1.3;
+    text-align: center;
+    font-weight: bold;
+}
+.contact_information{
+    margin: 45px 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.profile{
+    margin-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#contact_information{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+}
+.jims_contact_info{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+}
+#about_jims{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30.4992px;
+    /* line-height: 2.2; */
+}
+.info_pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#subtitle{
+    color: #006cd6;
+}
+.picture_box_jims{
+    margin: 115px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jims_img{
+    margin-right: 20px;
+    border-radius: 50%;
+    height: 400px;
+    width:400px;
+}
+.jims_para{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    
+}
+#jims_para{
+    line-height: 1.2;
+}
+.punya_heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.working_PUNYA{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    margin-left: 60px;
+    line-height: 1.8;;
+}
+.working_PUNYA ul li{
+    list-style:circle;
+}
